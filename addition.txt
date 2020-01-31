@@ -1,0 +1,11 @@
+echo " addition program"
+echo " NUM1 is 10"
+NUM1=10
+echo  " NUM2 is 20"
+NUM2=20
+
+echo " adding 2 numbers"
+
+VALUE=$(($NUM1 + $NUM2))
+
+echo " result $VALUE"
